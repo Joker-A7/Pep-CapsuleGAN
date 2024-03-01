@@ -14,7 +14,7 @@ keras 2.6.0
 ```
 如缺少其他库，可自行使用命令安装`pip install package_name==2.0.0`
 ## 数据集的t-SNE图
-![t-SNE图](./image/Pep_PR_Ind)
+![t-SNE图](https://github.com/Joker-A7/Pep-CapsuleGAN/raw/master/image/t-SNE)
 ## 模型效果
 ![ROC曲线](./image/Pep_PR_Ind)
 ![PR曲线](./image/Pep_PR_Ind)
