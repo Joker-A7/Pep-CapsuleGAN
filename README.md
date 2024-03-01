@@ -16,8 +16,8 @@ keras 2.6.0
 ## 数据集的t-SNE图
 ![t-SNE图](https://github.com/Joker-A7/Pep-CapsuleGAN/blob/main/image/t-SNE.png)
 ## 模型效果
-![ROC曲线](./image/Pep_PR_Ind)
-![PR曲线](./image/Pep_PR_Ind)
+![ROC曲线](https://github.com/Joker-A7/Pep-CapsuleGAN/blob/main/image/Pep_ROC_Ind.png)
+![PR曲线](https://github.com/Joker-A7/Pep-CapsuleGAN/blob/main/image/Pep_PR_Ind.png)
 ## 使用流程
 注意：数据集使用 0 和 1 分别表示高活性和低/无活性。  
 ### 提取特征
