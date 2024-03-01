@@ -13,7 +13,8 @@ tensorflow 2.6.0
 keras 2.6.0
 ```
 如缺少其他库，可自行使用命令安装`pip install package_name==2.0.0`
+
 ## 使用
 注意：数据集使用 0 和 1 分别表示高活性和低/无活性。  
 ### 提取特征
-您只需要在__iFeature_exteactor__中
+您只需要在 __iFeature_exteactor__ 中
