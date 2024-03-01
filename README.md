@@ -13,8 +13,11 @@ tensorflow 2.6.0
 keras 2.6.0
 ```
 如缺少其他库，可自行使用命令安装`pip install package_name==2.0.0`
+## 数据集的t-SNE图
+![t-SNE图](./image/Pep_PR_Ind)
 ## 模型效果
-
+![ROC曲线](./image/Pep_PR_Ind)
+![PR曲线](./image/Pep_PR_Ind)
 ## 使用流程
 注意：数据集使用 0 和 1 分别表示高活性和低/无活性。  
 ### 提取特征
