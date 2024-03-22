@@ -1,4 +1,4 @@
-# Pep-CapsuleGAN
+# DeepACE
 The implementation of the paper
 ## Requirements
 The majoy dependencies used in this project are as following:
