@@ -1,5 +1,6 @@
 # DeepACE
-The implementation of the paper
+Angiotensin-I converting enzyme (ACE) plays an important role in maintaining the balance of the angiotensin system and regulating blood pressure in the body. Due to its importance, ACE has also become the target of many drugs to treat hypertension and cardiovascular diseases. Among them, the strength of ACE inhibitory activity will affect the effect of the drug. How to accurately identify peptides with strong ACE inhibitory activity from ACE inhibitory peptides is of great significance.
+this study proposes a novel and high-accuracy prediction model (DeepACE) developed using generative adversarial capsule network (CapsuleGAN), to accurately identify peptides with strong ACE inhibitory activity. For DeepACE, we first utilized a wide range of feature encoding schemes derived with two main types of feature encoding strategies, including hand-crafted feature encodings and pre-trained protein language models, to extract the hidden interrelated information embedding in ACE inhibitory peptides. Subsequently, these extracted features were fused and used to develop a predictor based on the CapsuleGAN model for identifying peptides with strong ACE inhibitory activity. Finally, to enhance the model performance we performed the dimensionality reduction on the fused features using the principal component analysis (PCA) method. Comparative analysis results show that in independent tests, DeepACE's prediction performance is significant, with a balanced accuracy of 0.984 ± 0.039, an MCC of 0.968 ± 0.079, and an AUC of 0.995 ± 0.014, which are significantly better than existing methods. In addition, DeepACE was able to attain a superior prediction performance compared with well-known machine learning-based and deep learning-based classifiers.
 ## Requirements
 The majoy dependencies used in this project are as following:
 ```
@@ -13,8 +14,6 @@ tensorflow 2.6.0
 keras 2.6.0
 ```
 If other libraries are missing, you can install them yourself using the command `pip install package_name==2.0.0`
-## t-SNE plot of the dataset
-![t-SNE plot](https://github.com/Joker-A7/Pep-CapsuleGAN/blob/main/image/t-SNE.png)
 ## Model performance
 ![ROC curve](https://github.com/Joker-A7/Pep-CapsuleGAN/blob/main/image/Pep_ROC_Ind.png)
 ![PR curve](https://github.com/Joker-A7/Pep-CapsuleGAN/blob/main/image/Pep_PR_Ind.png)
